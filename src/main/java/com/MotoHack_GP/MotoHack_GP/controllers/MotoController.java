@@ -2,10 +2,7 @@ package com.MotoHack_GP.MotoHack_GP.controllers;
 
 import com.MotoHack_GP.MotoHack_GP.models.Moto;
 import com.MotoHack_GP.MotoHack_GP.services.IMotoService;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -28,4 +25,10 @@ public class MotoController {
     Moto getById(@PathVariable Long id){
         return motoService.getById(id);
     };
+
+    @GetMapping(value="/motos", params = "search")
+    List<Moto> getBySearch(@RequestParam String search){
+        var searchResult = motoService.getBySearch(search);
+        return searchResult;
+    }
 }

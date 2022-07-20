@@ -23,4 +23,10 @@ public class MotoService implements IMotoService {
     public Moto getById(Long id) {
         return motoRepository.findById(id).get();
     }
+
+    @Override
+    public List<Moto> getBySearch(String search) {
+        var searchList = motoRepository.findMotosBySearchOfBrandOrModel(search);
+        return searchList;
+    }
 }

@@ -16,6 +16,7 @@ public class Moto {
     private String model;
     private String image;
     private String location;
+    private String description;
     private Integer prodYear;
     private Integer cc;
     private String hp;
@@ -23,6 +24,7 @@ public class Moto {
     private Double price;
     private Boolean isFavorite;
     private Boolean isClassic;
+    private Boolean isEco;
     @ManyToOne
     @JoinColumn(name = "seller_id")
     private User seller;
