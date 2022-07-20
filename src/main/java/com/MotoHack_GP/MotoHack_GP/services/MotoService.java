@@ -18,4 +18,9 @@ public class MotoService implements IMotoService {
     public List<Moto> getAll() {
         return motoRepository.findAll();
     }
+
+    @Override
+    public Moto getById(Long id) {
+        return motoRepository.findById(id).get();
+    }
 }

@@ -6,4 +6,5 @@ import java.util.List;
 
 public interface IMotoService {
     List<Moto> getAll();
+    Moto getById(Long id);
 }
