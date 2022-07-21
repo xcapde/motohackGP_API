@@ -34,7 +34,19 @@ public class MotoService implements IMotoService {
     @Override
     public Moto update(MotoRequestDto motoDto, Long id) {
         var motoToEdit = motoRepository.findById(id).get();
+        motoToEdit.setBrand(motoDto.getBrand());
+        motoToEdit.setModel(motoDto.getModel());
+        motoToEdit.setImage(motoDto.getImage());
+        motoToEdit.setLocation(motoDto.getLocation());
+        motoToEdit.setDescription(motoDto.getDescription());
+        motoToEdit.setProdYear(motoDto.getProdYear());
+        motoToEdit.setCc(motoDto.getCc());
+        motoToEdit.setHp(motoDto.getHp());
+        motoToEdit.setKm(motoDto.getKm());
+        motoToEdit.setPrice(motoDto.getPrice());
         motoToEdit.setIsFavorite(motoDto.getIsFavorite());
+        motoToEdit.setIsClassic(motoDto.getIsClassic());
+        motoToEdit.setIsEco(motoDto.getIsEco());
         return motoRepository.save(motoToEdit);
     }
 }
