@@ -1,5 +1,6 @@
 package com.MotoHack_GP.MotoHack_GP.controllers;
 
+import com.MotoHack_GP.MotoHack_GP.dto.MotoRequestDto;
 import com.MotoHack_GP.MotoHack_GP.models.Moto;
 import com.MotoHack_GP.MotoHack_GP.services.IMotoService;
 import org.springframework.web.bind.annotation.*;
@@ -30,5 +31,11 @@ public class MotoController {
     List<Moto> getBySearch(@RequestParam String search){
         var searchResult = motoService.getBySearch(search);
         return searchResult;
+    }
+
+    @PutMapping("/motos/{id}")
+    Moto update(@RequestBody MotoRequestDto motoDto, @PathVariable Long id){
+        var updatedMoto = motoService.update(motoDto, id);
+        return updatedMoto;
     }
 }

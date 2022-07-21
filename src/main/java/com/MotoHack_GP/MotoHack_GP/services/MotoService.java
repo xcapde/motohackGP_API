@@ -1,5 +1,6 @@
 package com.MotoHack_GP.MotoHack_GP.services;
 
+import com.MotoHack_GP.MotoHack_GP.dto.MotoRequestDto;
 import com.MotoHack_GP.MotoHack_GP.models.Moto;
 import com.MotoHack_GP.MotoHack_GP.repositories.IMotoRepository;
 import org.springframework.stereotype.Service;
@@ -28,5 +29,12 @@ public class MotoService implements IMotoService {
     public List<Moto> getBySearch(String search) {
         var searchList = motoRepository.findMotosBySearchOfBrandOrModel(search);
         return searchList;
+    }
+
+    @Override
+    public Moto update(MotoRequestDto motoDto, Long id) {
+        var motoToEdit = motoRepository.findById(id).get();
+        motoToEdit.setIsFavorite(motoDto.getIsFavorite());
+        return motoRepository.save(motoToEdit);
     }
 }
