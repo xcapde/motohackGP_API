@@ -1,16 +1,16 @@
 INSERT
 INTO
   users
-  (name, avatar, mail, password)
+  (name, avatar, contact_Mail, whatsapp, mail, password)
 VALUES
-  ('Jeffrey', 'https://www.semana.com/resizer/9rjTQQMtznGrxgVhtJenzLrXPJA=/1200x675/filters:format(jpg):quality(50)//cloudfront-us-east-1.images.arcpublishing.com/semana/VB67IZFBYNDN5MZQFZK3ITSTLM.jpg', 'jeffrey@mail.com', 'jeffreypass');
+  ('Jeffrey', 'https://www.semana.com/resizer/9rjTQQMtznGrxgVhtJenzLrXPJA=/1200x675/filters:format(jpg):quality(50)//cloudfront-us-east-1.images.arcpublishing.com/semana/VB67IZFBYNDN5MZQFZK3ITSTLM.jpg', 'infojeff@mail.com', 666555444, 'jeffrey@mail.com', 'jeffreypass');
 
 INSERT
 INTO
   users
-  (name, avatar, mail, password)
+  (name, avatar, contact_Mail, whatsapp, mail, password)
 VALUES
-  ('Mark', 'https://dircomfidencial.com/wp-content/uploads/2021/10/mark.jpg', 'mark@mail.com', 'markpass');
+  ('Mark', 'https://dircomfidencial.com/wp-content/uploads/2021/10/mark.jpg', 'contactmark@mail.com', 600000001, 'mark@mail.com', 'markpass');
 
 
 

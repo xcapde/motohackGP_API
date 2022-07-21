@@ -15,6 +15,8 @@ public class User {
     private Long id;
     private String name;
     private String avatar;
+    private String contactMail;
+    private Integer whatsapp;
     @JsonIgnore
     private String mail;
     @JsonIgnore
