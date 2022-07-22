@@ -14,7 +14,7 @@
 ### :camera: Screenshots
 
 <div align="center"> 
-  <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot" />
+<a href="https://ibb.co/NNjJskh"><img src="https://i.ibb.co/3FNj78X/Captura-de-pantalla-2022-07-22-a-las-9-44-02.png" alt="Captura-de-pantalla-2022-07-22-a-las-9-44-02" border="0"></a>
 </div>
 
 
