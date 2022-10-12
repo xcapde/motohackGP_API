@@ -12,10 +12,8 @@
 
 <!-- Screenshots -->
 ### :camera: Screenshots
+![IntelliJ](https://user-images.githubusercontent.com/9727006/195411792-0a65cdc8-b58f-4364-88ee-fa88f9cb2c3d.png)
 
-<div align="center"> 
-<a href="https://ibb.co/NNjJskh"><img src="https://i.ibb.co/3FNj78X/Captura-de-pantalla-2022-07-22-a-las-9-44-02.png" alt="Captura-de-pantalla-2022-07-22-a-las-9-44-02" border="0"></a>
-</div>
 
 
 <!-- TechStack -->
@@ -24,7 +22,7 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://www.jetbrains.com/idea/">IntelliJ Idea</a></li>
   </ul>
 </details>
 
@@ -46,11 +44,6 @@
   </ul>
 </details>
 
-<!-- Color Reference -->
-### :art: Color Reference
-
-<a href="https://ibb.co/wWKBxMH"><img src="https://i.ibb.co/6P4rfgh/Captura-de-pantalla-2022-07-21-a-las-10-37-46.png" alt="Captura-de-pantalla-2022-07-21-a-las-10-37-46" border="0"></a>
-
 <!-- Getting Started -->
 ## 	:toolbox: Getting Started
 
@@ -60,7 +53,13 @@
 Clone the project
 
 ```bash
-  git clone https://github.com/xcapde/MotoHack_GP-backend
+  git clone https://github.com/xcapde/MotoHack_GP-API.git
+```
+
+Run the project
+
+```bash
+  run MotoHackGpApplication
 ```
 
 <!-- Deployment -->
@@ -78,4 +77,7 @@ Clone the project
 [Florangel R.](https://github.com/FLOR1219)<br> 
 [Fran Domínguez](https://github.com/devfdom)<br>
 
-Project Link: [https://github.com/xcapde/MotoHack_GP)
+Project Links:
+
+[Frontend](https://github.com/xcapde/MotoHack_GP-UI)</br>
+[Backend](https://github.com/xcapde/MotoHack_GP-API)
