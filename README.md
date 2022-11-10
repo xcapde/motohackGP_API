@@ -36,9 +36,6 @@
 <details>
 <summary>Tools</summary>
   <ul>
-    <li><a href="https://www.trello.com/">Trello</a></li>
-    <li><a href="https://www.figma.com/">Figma</a></li>
-    <li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
     <li><a href="https://www.jetbrains.com/es-es/idea/">intelliJ Idea</a></li>
     <li><a href="https://www.postman.com/">Postman</a></li>
   </ul>
@@ -61,10 +58,6 @@ Run the project
 ```bash
   run MotoHackGpApplication
 ```
-
-<!-- Deployment -->
-### :triangular_flag_on_post: Deployment
-
 
 <!-- Contact -->
 ## :handshake: Hackaton Team
