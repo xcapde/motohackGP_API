@@ -36,7 +36,7 @@
 <details>
 <summary>Tools</summary>
   <ul>
-    <li><a href="https://www.jetbrains.com/es-es/idea/">intelliJ Idea</a></li>
+    <li><a href="https://www.jetbrains.com/es-es/idea/">IntelliJ Idea</a></li>
     <li><a href="https://www.postman.com/">Postman</a></li>
   </ul>
 </details>
