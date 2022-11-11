@@ -1,6 +1,12 @@
 <div align="center">
-  <a href="https://imgbb.com/"><img src="https://i.ibb.co/pfdDMZp/logo.png" alt="logo" border="0"  width="200" height="auto"></a>
+  <a href="https://imgbb.com/"><img src="https://i.ibb.co/pfdDMZp/logo.png" alt="logo" border="0"  width="100" height="auto"></a>
 </div>
+<h4 align="left">
+This is a used motorcycle buying and selling platform where customers can sell their vehicles and users can view the information, mark as favorite, search by brand or model and contact advertisers.
+</h4>
+<h4 align="left">
+Finalist project in the Hackathon F5 2022 organized by Factoría F5 and Thoughtworks, developed in 48 hours with a team from all over Spain and placing among the top 5 of the 20 projects presented.  
+</h4>
 
 <br />
   
