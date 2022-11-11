@@ -56,7 +56,7 @@ Finalist project in the Hackathon F5 2022 organized by Factoría F5 and Thoughtw
 Clone the project
 
 ```bash
-  git clone https://github.com/xcapde/MotoHack_GP-API.git
+  git clone https://github.com/xcapde/motohackGP_API.git
 ```
 
 Run the project
@@ -78,5 +78,5 @@ Run the project
 
 Project Links:
 
-[Frontend](https://github.com/xcapde/MotoHack_GP-UI)</br>
-[Backend](https://github.com/xcapde/MotoHack_GP-API)
+[Frontend](https://github.com/xcapde/motohackGP_UI.git)</br>
+[Backend](https://github.com/xcapde/motohackGP_API.git)
